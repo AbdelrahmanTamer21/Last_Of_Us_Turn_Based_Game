@@ -7,8 +7,13 @@ public class CharacterCell extends Cell {
 	public CharacterCell(Character character) {
 		this.character = character;
 		this.isSafe = false;
-
 	}
+	
+	public CharacterCell(Character character, boolean isSafe) {
+		this.character = character;
+		this.isSafe = isSafe;
+	}
+
 	public Character getCharacter() {
 		return character;
 	}

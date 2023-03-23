@@ -8,6 +8,7 @@ public class TrapCell extends Cell
 		int [] a = {10,20,30};
 		this.trapDamage = a[   (int)(Math.random()*3)   ];
 	}
+	
 	public int getTrapDamage() {
 		return trapDamage;
 	}

@@ -3,7 +3,7 @@ package model.characters;
 import java.util.ArrayList;
 import model.collectibles.*;
 
-public class Hero extends Character{
+public abstract class Hero extends Character{
 	private int actionsAvailable;
 	private int maxActions;
 	private boolean specialAction;
