@@ -8,4 +8,10 @@ public class Zombie extends Character
 		super("Zombie "+ (++ZOMBIES_COUNT),40,10);		
 	}
 	
+	public static int getZOMBIES_COUNT() {
+		return ZOMBIES_COUNT;
+	}
+	
+	
+	
 }
